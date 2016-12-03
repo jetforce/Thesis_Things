@@ -1,0 +1,35 @@
+\contentsline {chapter}{\numberline {1}Research Description}{1}
+\contentsline {section}{\numberline {1.1}Overview of the Current State of Technology}{1}
+\contentsline {section}{\numberline {1.2}Research Objectives}{2}
+\contentsline {subsection}{\numberline {1.2.1}General Objective}{2}
+\contentsline {subsection}{\numberline {1.2.2}Specific Objectives}{2}
+\contentsline {section}{\numberline {1.3}Scope and Limitations of the Research}{2}
+\contentsline {section}{\numberline {1.4}Significance of the Research}{3}
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{4}
+\contentsline {section}{\numberline {2.1}Studies on Object Detection for Paper Forms}{4}
+\contentsline {section}{\numberline {2.2}Studies on Improving Readability}{5}
+\contentsline {section}{\numberline {2.3}Image Segmentation}{6}
+\contentsline {section}{\numberline {2.4}Optical Character Recognition}{7}
+\contentsline {chapter}{\numberline {3}Research Methodology}{8}
+\contentsline {section}{\numberline {3.1}Research Activities}{8}
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{9}
+\contentsline {chapter}{\numberline {A}Diagrams and Other Documentation Tools}{10}
+\contentsline {section}{\numberline {A.1}Process Flow}{10}
+\contentsline {subsection}{\numberline {A.1.1}Client Side}{10}
+\contentsline {subsection}{\numberline {A.1.2}Server Side}{11}
+\contentsline {section}{\numberline {A.2}Medical Examination Forms currently used by the GetBetter Tele-Diagnosis System.}{12}
+\contentsline {subsection}{\numberline {A.2.1}First Form}{12}
+\contentsline {subsection}{\numberline {A.2.2}Second Form}{13}
+\contentsline {subsection}{\numberline {A.2.3}Third Form}{14}
+\contentsline {section}{\numberline {A.3}Medical Examination Forms in preparation for the Optical Character Recognition system}{15}
+\contentsline {subsection}{\numberline {A.3.1}First Form}{15}
+\contentsline {subsection}{\numberline {A.3.2}Second Form}{16}
+\contentsline {subsection}{\numberline {A.3.3}Third Form}{17}
+\contentsline {subsection}{\numberline {A.3.4}Fourth Form}{18}
+\contentsline {subsection}{\numberline {A.3.5}Fifth Form}{19}
+\contentsline {chapter}{\numberline {B}Theoretical and/or Conceptual Framework}{20}
+\contentsline {section}{\numberline {B.1}Image Pre-Processing}{20}
+\contentsline {section}{\numberline {B.2}Image Segmentation}{20}
+\contentsline {section}{\numberline {B.3}Optical Character Recognition}{21}
+\contentsline {chapter}{\numberline {C}Resource Persons}{22}
+\contentsline {chapter}{References}{23}

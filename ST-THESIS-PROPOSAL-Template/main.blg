@@ -1,0 +1,28 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: apacite.bst
+A level-1 auxiliary file: title_page.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chapter_1.aux
+A level-1 auxiliary file: chapter_2.aux
+A level-1 auxiliary file: chapter_3.aux
+A level-1 auxiliary file: appendix_A.aux
+A level-1 auxiliary file: appendix_B.aux
+A level-1 auxiliary file: appendix_C.aux
+Database file #1: myreferences.bib
+I was expecting a `,' or a `}'---line 2 of file myreferences.bib
+ :  
+ :  author    = {J.L. Dayupay},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 54 of file myreferences.bib
+ :  
+ :  title = {How to build a kickass scanner in 5 minutes},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in telediagnosis
+ptr=1, stack=
+
+---the literal stack isn't empty for entry telediagnosis
+while executing---line 5079 of file apacite.bst
+(There were 3 error messages)

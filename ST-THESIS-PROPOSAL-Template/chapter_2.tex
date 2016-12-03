@@ -1,0 +1,203 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Filename    : chapter_2.tex 
+%
+%   Description : This file will contain your Review of Related Literature.
+%                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Review of Related Literature}
+\label{sec:relatedlit}
+
+\section{Studies on Object Detection for Paper Forms}
+
+A study done by \citeA{george13}, uses Canny Edge Detection to find objects in the image. To identify the object in the image, a query image is used as a template to be a point of comparison. Correlation coefficient with the edges of template image for each object found in the image is computed and whichever object has the highest correlation value must be the object of interest. Though the study has merits it also comes with problems such as, the size of the template image and search image will never be the same and that will significantly affect the correlation coefficient.  Thus a technique that is independent from the image size must be explored. 
+
+
+One possible technique dependent from the size of the image is shape analysis.  A paper done by \citeA{teh89} discusses a technique used to identify  the dominant points in an enclosed curvature using the assumptions that dominant points are located at maximum curvatures of the shape. Thus a square or rectangle contains four dominant points, Octagon with eight and so on.  One possible problem with this technique is differentiating noise shapes with important shapes. The location of important shapes must be clearly defined so that out of placed shapes will be discarded.  This technique can be very useful on detecting the fields on the form, however, similar to the object detection by the canny algorithm,  this technique does not take advantage of colors.
+
+
+If the form has distinct colors, color based image segmentation techniques can be used.\shortciteA{rathore12} proposes the use of  L*A*B as features and K- means to segment the image. This technique can be applied to the paper forms by assigning distinct colors to objects of interests in the image.  By knowing the distinct colors, it can easily be found in the image by K-means.  
+
+
+Correlation coefficient, Shape analysis, and color based segmentation are useful techniques if the location of the object is not known. However for paper forms, each location of the field is already known, given that the type of paper form can be identified. It is the paper form itself that has an unknown location within the image. \shortciteA{nguyen11} discusses an approach used on an multiple choice answer sheet that takes advantage of the known location. They transform the paper in the correct orientation using hough transform and normalize it through resizing. By doing so, each objects in the multiple choice answer sheet can be extracted using its known normalized location and size.
+
+
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{| l | l |} 
+			\hline
+			Author & Techniques Used For Object Detection \\ [0.5ex] 
+			\hline\hline
+			\citeA{george13} & Canny Edge Detection algorithm, Correlation  \\  [0.5ex]
+			\hline
+			\shortciteA{teh89} & Curvature Measure, Number of points\\ [0.5ex]
+			\hline
+			\shortciteA{rathore12} & L*A*B features, K-means\\ [0.5ex]
+			\hline
+			\shortciteA{nguyen11} &Hough Transform, Normalization\\ [0.5ex] 
+			\hline
+		\end{tabular}
+		\caption{Object Detection Summary}
+		\label{table:1}
+	\end{center}
+\end{table}
+
+
+
+\section{Studies on Improving Readability}
+
+
+Once the form has been found in the image, to improve readability it must be dewarped to fix the skewness and orientation. A paper by  \shortciteA{stam08} proposes a two step dewarping process. The first step is to map the projection of a warped image to a 2D rectangular box . Next step is fine adjustment of the letters by looking for the words and aligning it. Though for the purpose of the forms the fine adjustment step won’t work because the proposed word detection does not work on handwritten characters.  Projecting the form to a 2D rectangular box will make it easier find the fields because it can then be mapped using its location on the x y plane. 
+
+
+After transformation, to aid the field searching and readability the document should be cleaned of its noise. Depending on the type of noise \shortciteA{farahmand13} proposes different kinds of technique like thresholding, fuzzy logic based, and morphology based.  It is important to identify the type of noise the forms will be most likely be exposed to before implementing such algorithms. 
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{| l | l |} 
+			\hline
+			Author & Techniques Used for improving readability \\ [0.5ex] 
+			\hline\hline
+			\shortciteA{stam08} & Projection of curved image to 2D rectangular box \\ [0.5ex]
+			\hline
+			\shortciteA{farahmand13} & Noise Reduction \\ [0.5ex]
+			\hline
+		\end{tabular}
+		\caption{Improving Readability Summary}
+		\label{table:1}
+	\end{center}
+\end{table}
+
+
+
+\section{Image Segmentation}
+
+
+\shortciteA{huang15} presented a method of workpiece recognition and location based on Open Source Computer Vision (OpenCV). The paper mentions how workpiece recognition and location technology is important in automatic production. The method has three stages which are preprocessing, contour extraction, and workpiece recognition and location. The preprocessing includes image graying, mean filter, adaptive threshold segmentation, and image binarization. Contour extraction makes use of the findContours function of OpenCV on the resulting binary image of the preprocessing stage. The contours with small perimeters or complex shapes are removed and the remaining contours are filled up and used for another contour extraction with the findContours function. A template image, which is the image of the workpiece, undergoes the same process to be used for template matching in the next stage. Using the OpenCV function matchShapes, the contours of the first image, or the identifying image, is matched with the contours of the template. Once the shapes match, the position is obtained by calculating the mass center of its contour. Based on experimental results, the method can realize workpiece recognition and location and can satisfy real time demand.
+
+
+In a study by \shortciteA{gupta06}, document layouts are extracted automatically and segments of the document are analyzed and bounded given its spatial arrangement. The process involves two major steps which are layout extraction and layout analysis. Layout extraction deals with merging rectangular regions until a global layout structure is generated. Layout analysis involves defining a model of a paper layout, performing feature extraction on the resulting image, and then classification. Technical documents such as scanned journals and conference proceedings were used for testing. The system was implemented using Visual C++ and Open Source Computer Vision (OpenCV) library.
+
+
+\shortciteA{patel15} presented a low cost optical mark recognition (OMR) system called CheckIt. The system is developed using Python and the Open Source Computer Vision (OpenCV) library for the back end and Android for the front end. It is low cost because it utilizes open source technology and does not need a scanning hardware. The method involves image graying, resizing, adaptive histogram equalization, adaptive thresholding, blurring, canny edge detection, contour extraction, affine transformation, and score calculation. Based on the study’s results, the algorithm has high accuracy and speed. It was tested on 310 images with an average processing time of 3 seconds per image.
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{| l | l |} 
+			\hline
+			Authors & Techniques Used for Image Segmentation \\ [0.5ex]
+			\hline\hline
+			\shortciteA{huang15} & Contour Extraction and Template Matching using the OpenCV library\\ [0.5ex]
+			\hline
+			\shortciteA{gupta06} &
+			Segmentation algorithms using the OpenCV library \\ [0.5ex]
+			\hline
+			\shortciteA{patel15} &
+			Contour Extraction using the OpenCV library\\ [0.5ex]
+			\hline
+		\end{tabular}
+		\caption{Image Segmentation Summary}
+		\label{table}
+	\end{center}
+\end{table}
+
+\section{Optical Character Recognition}
+
+
+\shortciteA{vuong14} presented a multilanguage name card reader on an Android platform. The method was implemented with the Open Source Computer Vision (OpenCV) library and Tesseract Optical Character Recognition (Tesseract OCR). The proposed system has six steps which are language selection, retrieval of image from the camera or SD card, preprocessing, optical character recognition (OCR), pattern matching, and contact information adding. Preprocessing involves image resizing, noise reduction, card area detection, image graying, and locally adaptive binarization. The Tesseract OCR is then used on the resulting binary image. Different information is extracted from the OCR step and to deal with this the content is matched with a predefined format to only obtain the necessary contents. The final step then adds the information extracted to the contact list of the device. Although the system is unable to correctly extract information in cases with complex background and blurred image, the results still showed a satisfactory number with high accuracy over 90%.
+
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{| l | l |} 
+			\hline
+			Authors &
+			Techniques Used for Optical Character Recognition \\ [0.5ex] 
+			\hline\hline
+			\shortciteA{vuong14} &  \parbox[t]{3in}{Segmentation algorithms \par using the OpenCV
+				library and Tesseract Optical Character Recognition} \\ [0.5ex]
+			\hline
+		\end{tabular}
+		\caption{Optical Character Recognition Summary}
+		\label{table}
+	\end{center}
+\end{table}
+
+
+
+
+
+
+
+\begin{comment}
+%
+% IPR acknowledgement: the contents withis this comment are from Ethel Ong's slides on RRL.
+%
+Guide on Writing your RRL chapter
+
+1. Identify the keywords with respect to your research
+One keyword = One document section
+Examples: 2.1 Story Generation Systems
+2.2 Knowledge Representation
+
+2.  Find references using these keywords
+
+3.  For each of the references that you find,
+Check: Is it relevant to your research?
+Use their references to find more relevant works.
+
+4. Identify a set of criteria for comparison.
+It will serve as a guide to help you focus on what to look for
+
+5. Write a summary focusing on -
+What: A short description of the work
+How: A summary of the approach it utilized
+Findings: If applicable, provide the results
+Why: Relevance to your work
+
+6. At the end of each section,  show a Table of Comparison of the related works 
+and your proposed project/system
+
+\end{comment}
+
+\begin{comment}
+\section{Review of Related Paper}
+This section contains a review of research papers that:
+%
+% IPR acknowledgement: the following list of items are from Ethel Ong's slides RRL.
+%
+\begin{itemize}
+\item Describes work on a research area that is similar or relevant to yours
+\item Describes work on a domain that is similar or relevant to yours
+\item Uses an algorithm that may be useful to your work
+\item Uses a software / tool that may be useful to your work
+\end{itemize}
+
+\section{Review of Related Software}
+This section contains a review of software systems that:
+%
+% IPR acknowledgement: the following list of items are from Ethel Ong's slides on RRL.
+%
+\begin{itemize}
+\item Belongs to a research area similar to yours
+\item Addresses a need or domain similar to yours
+\item Is your predecessor
+\end{itemize}
+
+\end{comment}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

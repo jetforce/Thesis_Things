@@ -1,0 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Filename    : appendix_B.tex 
+%
+%   Description : This file will contain one of your appendices.
+%                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Theoretical and/or Conceptual Framework}
+\label{sec:appendixb}
+
+\section{Image Pre-Processing}
+Image Pre-Processing involves the transformation of raw digital images of paper forms to a more useful digital image. This process removes noise and outputs a gray-scale and a binary version of the image to aide the image segmentation process. Farahmand, et al. (2013), proposed different approaches to clean image. These approaches is applicable on our images and will be the main reference for cleaning the images. 
+
+\section{Image Segmentation}
+Image segmentation is the process of extracting all relevant parts of the	image. The main goal is to extract and identify each field in the medical form. Different image segmentation techniques relevant to the study includes, color, contour and location based segmentation discussed by different authors in the related literature. Different approaches will be tried to determine the best and most robust way. 
+
+\section{Optical Character Recognition}
+Optical Character Recognition translates digital images of characters to string characters. This process is necessary because the data retrieved in the medical forms will be stored as strings. Tesseract, an open-source Optical Character Recognition (OCR) engine that has a very high correct recognition rate (Vuong and Do, 2014) will be used . Tesseract OCR works well in an Android Application as seen on Vuong and Do’s (2014) proposed system. Similarly to OpenCV, it only needs to be imported and its functions can easily be used.

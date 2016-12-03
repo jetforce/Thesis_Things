@@ -1,0 +1,317 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {Dictionary.com Unabridged}}{%
+\APACciteatitle {Dictionary.com Unabridged}}{%
+{\protect \APACyear {2016}}%
+}]{%
+telediagnosis}
+\APACinsertmetastar {%
+telediagnosis}%
+{\BBOQ}\APACrefatitle {Dictionary.com Unabridged} {Dictionary.com
+  unabridged}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{2016}{Aug}{26}.
+\newblock
+\begin{APACrefURL} \url{http://www.dictionary.com/browse/telediagnosis}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Farahmand%
+, Sarrafzadeh%
+\BCBL {}\ \BBA {} Shanbehzadeh%
+}{%
+Farahmand%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+farahmand13}
+\APACinsertmetastar {%
+farahmand13}%
+\begin{APACrefauthors}%
+Farahmand, A.%
+, Sarrafzadeh, A.%
+\BCBL {}\ \BBA {} Shanbehzadeh, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Document Image Noises and Removal Methods} {Document
+  image noises and removal methods}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the International MultiConference of
+  Engineers and Computer Scientists.} {Proceedings of the international
+  multiconference of engineers and computer scientists.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+George%
+\ \BBA {} Lakshmi%
+}{%
+George%
+\ \BBA {} Lakshmi%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+george13}
+\APACinsertmetastar {%
+george13}%
+\begin{APACrefauthors}%
+George, M.%
+\BCBT {}\ \BBA {} Lakshmi, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Object Detection using the Canny Edge Detector} {Object
+  detection using the canny edge detector}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Journal of Science and Research}
+  {International journal of science and research}\ (\BPGS\ 213--215).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gupta%
+, Niranjan%
+, Shrivastava%
+\BCBL {}\ \BBA {} Sinha%
+}{%
+Gupta%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+gupta06}
+\APACinsertmetastar {%
+gupta06}%
+\begin{APACrefauthors}%
+Gupta, G.%
+, Niranjan, S.%
+, Shrivastava, A.%
+\BCBL {}\ \BBA {} Sinha, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Document Layout Analysis and Classification and Its
+  Application in OCR} {Document layout analysis and classification and its
+  application in ocr}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {10th IEEE International Enterprise Distributed Object
+  Computing Conference Workshops} {10th ieee international enterprise
+  distributed object computing conference workshops}\ (\BPG~58).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huang%
+, Chen%
+\BCBL {}\ \BBA {} Tang%
+}{%
+Huang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+huang15}
+\APACinsertmetastar {%
+huang15}%
+\begin{APACrefauthors}%
+Huang, C.%
+, Chen, D.%
+\BCBL {}\ \BBA {} Tang, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Implementation of Workpiece Recognition and Location
+  Based on Opencv} {Implementation of workpiece recognition and location based
+  on opencv}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2015 8th International Symposium on Computational
+  Intelligence and Design (ISCID)} {2015 8th international symposium on
+  computational intelligence and design (iscid)}\ (\BPGS\ 228--232).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nguyen%
+, Manh%
+, Phuong%
+, Thanh%
+\BCBL {}\ \BBA {} Hoang%
+}{%
+Nguyen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+nguyen11}
+\APACinsertmetastar {%
+nguyen11}%
+\begin{APACrefauthors}%
+Nguyen, T.%
+, Manh, Q.%
+, Phuong, M.%
+, Thanh, L.%
+\BCBL {}\ \BBA {} Hoang, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Efficient and reliable camera based multiple-choice test
+  grading system} {Efficient and reliable camera based multiple-choice test
+  grading system}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Conference on Advanced Technologies for
+  Communications.} {International conference on advanced technologies for
+  communications.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Patel%
+, Sanghavi%
+\BCBL {}\ \BBA {} Gupta%
+}{%
+Patel%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+patel15}
+\APACinsertmetastar {%
+patel15}%
+\begin{APACrefauthors}%
+Patel, R.%
+, Sanghavi, S.%
+\BCBL {}\ \BBA {} Gupta, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CheckIt - A low cost mobile OMR system} {Checkit - a low
+  cost mobile omr system}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {TENCON 2015 - 2015 IEEE Region 10 Conference} {Tencon
+  2015 - 2015 ieee region 10 conference}\ (\BPGS\ 1--5).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rathore%
+, Kumar%
+\BCBL {}\ \BBA {} Verma%
+}{%
+Rathore%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+rathore12}
+\APACinsertmetastar {%
+rathore12}%
+\begin{APACrefauthors}%
+Rathore, V.%
+, Kumar, M.%
+\BCBL {}\ \BBA {} Verma, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Colour Based Image Segmentation Using L*A*B* Colour
+  Space Based On Genetic Algorithm} {Colour based image segmentation using
+  l*a*b* colour space based on genetic algorithm}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {International Journal of Emerging Technology and
+  Advanced Engineering} {International journal of emerging technology and
+  advanced engineering}\ (\BPGS\ 156--162).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stamatopoulos%
+, Gatos%
+, Pratikakis%
+\BCBL {}\ \BBA {} Perantonis%
+}{%
+Stamatopoulos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+stam08}
+\APACinsertmetastar {%
+stam08}%
+\begin{APACrefauthors}%
+Stamatopoulos, N.%
+, Gatos, B.%
+, Pratikakis, I.%
+\BCBL {}\ \BBA {} Perantonis, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Two-Step Dewarping of Camera Document Images} {A
+  two-step dewarping of camera document images}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {The Eighth IAPR Workshop on Document Analysis Systems}
+  {The eighth iapr workshop on document analysis systems}\ (\BPGS\ 209--216).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Teh%
+\ \BBA {} Chin%
+}{%
+Teh%
+\ \BBA {} Chin%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+teh89}
+\APACinsertmetastar {%
+teh89}%
+\begin{APACrefauthors}%
+Teh, C.%
+\BCBT {}\ \BBA {} Chin, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the Detection of Dominant Points on Digital Curves}
+  {On the detection of dominant points on digital curves}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE
+  INTELLIGENCE} {Transactions on pattern analysis and machine intelligence}\
+  (\BPGS\ 859--872).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vuong%
+\ \BBA {} Do%
+}{%
+Vuong%
+\ \BBA {} Do%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+vuong14}
+\APACinsertmetastar {%
+vuong14}%
+\begin{APACrefauthors}%
+Vuong, B.%
+\BCBT {}\ \BBA {} Do, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design and implementation of multilanguage name card
+  reader on Android platform} {Design and implementation of multilanguage name
+  card reader on android platform}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 International Conference on Advanced Technologies
+  for Communications (ATC 2014)} {2014 international conference on advanced
+  technologies for communications (atc 2014)}\ (\BPGS\ 528--531).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
